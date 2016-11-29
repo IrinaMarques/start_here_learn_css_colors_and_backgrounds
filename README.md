@@ -1,1 +1,2 @@
-# start_here_learn_css_colors_and_backgrounds
+# Start here: Learn CSS Colors and Backgrounds (tutsplus)
+Learn some CSS colors
