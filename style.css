@@ -3,6 +3,20 @@ body {
 	font-size: 1.125rem;
 	line-height: 1.618;
 	margin: 0; /* because html allways add space on new documents*/
+	background-color: #75A1A0;
+	color: #3A3F3F;/*all text will be in this color but not to the links for links only in a target*/
+}
+
+a, a:link, a:visited { /*apply when a person visit a site*/
+	color: #864200;/*defines a color just for the link*/
+}
+
+a:hover, a:active {/* color only appear when a person do hover over this link and visited state*/
+	color: #34918F;
+}
+
+header, footer { /*style that control the color in the header and footer*/
+	color: #003837;
 }
 
 h1 {
@@ -76,6 +90,7 @@ header, footer {
 	box-sizing: border-box;/* default is content-box that pushes the column down*/
 	border-style: solid; /*add a border outside our box, just for design*/
 	border-width: 0.1875rem; /* if increase or decrease the border stay in place*/
+	background-color: #CEC9B6;
 }
 
 .col_01 {
@@ -99,6 +114,7 @@ header, footer {
 	padding: 0.75rem;
 	border-style: solid; /*same as the wrapper*/
 	border-width: 0.1875rem; /*same as the wrapper*/
+	background-color: #443D3B;
 }
 
 /*because we are using float left and right 
