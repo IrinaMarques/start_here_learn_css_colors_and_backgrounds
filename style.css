@@ -83,11 +83,12 @@ header, footer {
 .wrapper { /*set the size of the content, with % they allways respond to the size of the screen*/
 	width: 100%;
 	max-width: 80rem;
+	padding: 5rem;
 	margin: 0 auto; /*shorthand - most common used*/
 	/*equal width - that will center, work woth block elements
 	margin-left: auto; 
 	margin-right: auto; */
-	padding: 5rem;
+	box-shadow: 0.625rem .0625rem rgba(58, 89, 87, 0.5);/*x-offset y-offset blur spread color*/
 	box-sizing: border-box;/* default is content-box that pushes the column down*/
 	background-color: #CEC9B6;
 	background-image: url("images/bg_two.jpg"); 
@@ -95,6 +96,10 @@ header, footer {
 	/*border-color: #D8D4C3;*/
 	/*border-style: solid; - add a border outside our box, just for design*/
 	/*border-width: 0.1875rem; - if increase or decrease the border stay in place*/
+}
+
+.heading_shadow { /*create two shadow efects, one on the top and one bottom*/
+	text-shadow: 0.0625rem 0.625rem #D0CBB8, 0.125rem 0.125rem #ABA076;
 }
 
 .col_01 {
