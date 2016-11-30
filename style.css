@@ -89,10 +89,12 @@ header, footer {
 	margin-right: auto; */
 	padding: 5rem;
 	box-sizing: border-box;/* default is content-box that pushes the column down*/
-	border-style: solid; /*add a border outside our box, just for design*/
-	border-width: 0.1875rem; /* if increase or decrease the border stay in place*/
 	background-color: #CEC9B6;
 	background-image: url("images/bg_two.jpg"); 
+	border: 0.1875rem, solid, #D8D4C3; /*border-width, border-style, border-solor*/
+	/*border-color: #D8D4C3;*/
+	/*border-style: solid; - add a border outside our box, just for design*/
+	/*border-width: 0.1875rem; - if increase or decrease the border stay in place*/
 }
 
 .col_01 {
@@ -114,9 +116,11 @@ header, footer {
 .image_frame { /**makes a boarder around the image frame*/
 	box-sizing: border-box; /*same as the wrapper*/
 	padding: 0.75rem;
-	border-style: solid; /*same as the wrapper*/
-	border-width: 0.1875rem; /*same as the wrapper*/
 	background-color: #443D3B;
+	border: 0.1875rem solid #D8D4C3;
+	/*border-style: solid; - same as the wrapper*/
+	/*border-width: 0.1875rem; - same as the wrapper*/
+	/*border-color: #D8D4C3;*/
 }
 
 /*because we are using float left and right 
