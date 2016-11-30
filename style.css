@@ -5,6 +5,7 @@ body {
 	margin: 0; /* because html allways add space on new documents*/
 	background-color: #75A1A0;
 	color: #3A3F3F;/*all text will be in this color but not to the links for links only in a target*/
+	background-image: url("images/bg_one.jpg"); /*adds an image to the background*/
 }
 
 a, a:link, a:visited { /*apply when a person visit a site*/
@@ -91,6 +92,7 @@ header, footer {
 	border-style: solid; /*add a border outside our box, just for design*/
 	border-width: 0.1875rem; /* if increase or decrease the border stay in place*/
 	background-color: #CEC9B6;
+	background-image: url("images/bg_two.jpg"); 
 }
 
 .col_01 {
